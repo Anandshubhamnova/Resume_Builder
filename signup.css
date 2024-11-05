@@ -1,0 +1,70 @@
+body{
+	background-color:#15E3B4;
+	display:flex;
+	width:100%;
+	
+}
+.sign_up{
+	width:50%;
+}
+input{
+	background-color:#efe4e4;
+	width:60%;
+	height:35px;
+	border: aliceblue;
+    	outline: none;
+    	border-radius: 20px;
+	text-indent:20px;
+	margin-left:20%;
+	
+}
+.tas{
+	text-indent:0px;
+	width:3%;
+}
+.submit{
+	width:20%;
+	text-indent:0px;
+}
+.submit:hover{
+	background-color:#15E3B4;;
+	color:white;
+}
+form{
+	background-color:white;
+	border-style: solid;
+  	border-width: 5px;
+	border-radius:20px;
+	border-color:white;
+	margin:4%;
+	height:572px;
+}
+label{
+	margin-left:25%;
+}
+.tas2{
+	margin:0px;
+	margin-left: 138px;
+}
+.heading{
+	margin-left:30%;
+	font-family:math;
+	color:#bb147a
+}
+@media screen and (max-width: 600px){
+	.submit{
+		width:100%;
+		margin-left:0px;
+		}
+	}
+.pers_deatail{
+	width:50%;
+	width: 43%;
+    background-color: white;
+    height: 580px;
+    margin-top: 27px;
+	border-style: solid;
+	border-width: 5px;
+  	border-radius:20px;
+  	border-color:white;
+}
